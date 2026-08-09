@@ -14,5 +14,13 @@
     "colors": ["U", "B", "R"],
     "tagline": "A cheap artifact army backed by black removal and a red burn plan for the last few points of damage.",
     "page": "guide-grixis-affinity.html"
+  },
+  {
+    "slug": "elves",
+    "deck": "Elves",
+    "archetype": "Midrange-Aggro",
+    "colors": ["G"],
+    "tagline": "Chain mana dorks into a wide board of little green creatures, then swing for more than anyone expects.",
+    "page": "guide-elves.html"
   }
 ]

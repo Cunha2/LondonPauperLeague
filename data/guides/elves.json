@@ -1,0 +1,108 @@
+{
+  "deck": "Elves",
+  "archetype": "Midrange-Aggro",
+  "colors": ["G"],
+  "pilot": "Tomasz Wieczorek",
+  "intro": [
+    "Elves doesn't beat you with one big threat — it beats you with fourteen small ones on the same turn. Every creature in the deck either makes mana, draws a card, or gets bigger when its friends show up, so a hand that looks unimpressive on turn two can be an unstoppable board by turn four.",
+    "The deck's real skill test isn't deckbuilding, it's sequencing: playing your mana dorks in the right order, knowing when Heritage Druid actually taps for value, and recognizing the turn to stop developing and just go wide for the win. Tomasz holds the club record for a reason — fourteen creatures in one turn doesn't happen by accident."
+  ],
+  "decklist": {
+    "mainboard": [
+      {
+        "type": "Creature",
+        "col": 1,
+        "cards": [
+          { "qty": 4, "name": "Elvish Mystic" },
+          { "qty": 4, "name": "Elvish Visionary" },
+          { "qty": 4, "name": "Nettle Sentinel" },
+          { "qty": 4, "name": "Heritage Druid" },
+          { "qty": 4, "name": "Lys Alana Huntmaster" },
+          { "qty": 3, "name": "Timberwatch Elf" },
+          { "qty": 3, "name": "Wellwisher" }
+        ]
+      },
+      {
+        "type": "Enchantment",
+        "col": 1,
+        "cards": [
+          { "qty": 4, "name": "Wild Growth" }
+        ]
+      },
+      {
+        "type": "Instant",
+        "col": 2,
+        "cards": [
+          { "qty": 4, "name": "Vines of Vastwood" }
+        ]
+      },
+      {
+        "type": "Sorcery",
+        "col": 2,
+        "cards": [
+          { "qty": 4, "name": "Elvish Promenade" },
+          { "qty": 4, "name": "Beacon of Creation" }
+        ]
+      },
+      {
+        "type": "Land",
+        "col": 2,
+        "cards": [
+          { "qty": 18, "name": "Forest" }
+        ]
+      }
+    ],
+    "sideboard": [
+      { "qty": 3, "name": "Naturalize" },
+      { "qty": 2, "name": "Tranquility" },
+      { "qty": 3, "name": "Fog" },
+      { "qty": 2, "name": "Ranger's Guile" },
+      { "qty": 3, "name": "Nature's Claim" },
+      { "qty": 2, "name": "Moment's Peace" }
+    ]
+  },
+  "howToPlay": [
+    {
+      "heading": "Mulligan guide",
+      "text": "Keep any hand with a turn-one or turn-two mana dork and at least three other elves. A hand with Heritage Druid but no other elf to tap it for is a trap — count your creature density before you count your lands."
+    },
+    {
+      "heading": "Early game",
+      "text": "Play mana dorks before anything else, even Elvish Visionary. Nettle Sentinel wants an untapped land to come in on turn one if you can manage it — it's a real attacker by turn three once the rest of the board fills in."
+    },
+    {
+      "heading": "Mid game",
+      "text": "This is where the deck wins or loses: sequence your dorks so Heritage Druid is taxing the most elves possible, then chain into Lys Alana Huntmaster and Elvish Promenade in the same turn if you can. Wellwisher turns a wide board into a life total your opponent can't race."
+    },
+    {
+      "heading": "Closing it out",
+      "text": "Timberwatch Elf is your finisher — with six or more creatures in play it can end the game out of nowhere on an alpha strike. Don't hold back once you're wide: this deck loses more games to over-caution than to getting blown out."
+    }
+  ],
+  "sideboardGuide": [
+    {
+      "matchup": "vs. Mono-Red Madness",
+      "in": [{ "qty": 3, "name": "Fog" }, { "qty": 2, "name": "Moment's Peace" }],
+      "out": [{ "qty": 3, "name": "Wild Growth" }, { "qty": 2, "name": "Beacon of Creation" }],
+      "notes": "Buy the turn you need against their fast clock — the slow ramp and payoff pieces don't matter if you're dead by turn five."
+    },
+    {
+      "matchup": "vs. Grixis Affinity",
+      "in": [{ "qty": 3, "name": "Naturalize" }, { "qty": 3, "name": "Nature's Claim" }],
+      "out": [{ "qty": 3, "name": "Wild Growth" }, { "qty": 3, "name": "Vines of Vastwood" }],
+      "notes": "Kill their equipment and artifact lands before they hit metalcraft. You don't need pump spells against a deck that can't profitably block."
+    },
+    {
+      "matchup": "vs. Mono-Black Control",
+      "in": [{ "qty": 2, "name": "Ranger's Guile" }],
+      "out": [{ "qty": 2, "name": "Wellwisher" }],
+      "notes": "Protect your key mana engine pieces from their removal-heavy plan — Ranger's Guile also cantrips, so it's never a dead draw."
+    },
+    {
+      "matchup": "vs. Jeskai Ephemerate",
+      "in": [{ "qty": 2, "name": "Tranquility" }, { "qty": 2, "name": "Moment's Peace" }],
+      "out": [{ "qty": 2, "name": "Timberwatch Elf" }, { "qty": 2, "name": "Elvish Promenade" }],
+      "notes": "Tranquility answers their enchantment-based lock pieces. Slow down and grind rather than overextending into a board wipe."
+    }
+  ]
+}
