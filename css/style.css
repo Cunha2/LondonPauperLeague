@@ -168,7 +168,8 @@ body[data-page="home"] .nav-link[data-page="home"],
 body[data-page="schedule"] .nav-link[data-page="schedule"],
 body[data-page="standings"] .nav-link[data-page="standings"],
 body[data-page="hall-of-fame"] .nav-link[data-page="hall-of-fame"],
-body[data-page="metagame"] .nav-link[data-page="metagame"] {
+body[data-page="metagame"] .nav-link[data-page="metagame"],
+body[data-page="deck-guides"] .nav-link[data-page="deck-guides"] {
   background: rgba(190, 106, 40, 0.16);
   color: var(--parchment);
   border-left-color: var(--ember-bright);
@@ -693,6 +694,186 @@ table.ledger td.num, table.ledger th.num { text-align: right; }
 .quick-card p { margin: 0; font-size: 0.88rem; color: var(--ink-soft); }
 
 /* ============================================================
+   Deck Guides — hub grid
+   ============================================================ */
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.guide-card {
+  position: relative;
+  text-decoration: none;
+  color: var(--ink);
+  display: block;
+  transition: transform 0.15s ease;
+}
+
+.guide-card:hover { transform: translateY(-3px); }
+
+.guide-card .pips {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+
+.guide-card .pip {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid var(--rule);
+  flex-shrink: 0;
+}
+
+.guide-card .archetype-tag {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.guide-card h3 { margin: 0 0 8px; font-family: var(--font-display); font-size: 1.3rem; }
+
+.guide-card p.tagline { margin: 0 0 14px; font-size: 0.92rem; color: var(--ink-soft); line-height: 1.5; }
+
+.guide-card .read-link {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+}
+
+/* ============================================================
+   Deck Guides — individual guide page
+   ============================================================ */
+.guide-back {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--oxblood);
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+.guide-back:hover { text-decoration: underline; }
+
+.guide-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 10px 0 4px;
+}
+
+.guide-meta .pips { display: flex; gap: 5px; }
+
+.guide-meta .pip {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid var(--rule);
+}
+
+.guide-meta .pilot {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+.guide-section {
+  margin-bottom: 48px;
+}
+
+.guide-intro p {
+  font-size: 1.05rem;
+  margin: 0 0 16px;
+}
+
+.guide-intro p:last-child { margin-bottom: 0; }
+
+.decklist-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  background: var(--parchment-deep);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.decklist-col {
+  padding: 20px 22px;
+  border-right: 1px solid var(--rule-soft);
+}
+
+.decklist-col:last-child { border-right: none; }
+
+.decklist-col.sideboard-col { background: rgba(108, 36, 48, 0.05); }
+
+.decklist-group { margin-bottom: 20px; }
+
+.decklist-group:last-child { margin-bottom: 0; }
+
+.decklist-group h3 {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+  margin: 0 0 4px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--brass);
+}
+
+.decklist-row {
+  display: flex;
+  gap: 10px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--rule-soft);
+  font-size: 0.92rem;
+}
+
+.decklist-row:last-of-type { border-bottom: none; }
+
+.decklist-row .qty {
+  font-family: var(--font-mono);
+  color: var(--ink-soft);
+  width: 1.6em;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.decklist-group .group-total {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--brass);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.howto-block {
+  margin-bottom: 26px;
+}
+
+.howto-block:last-child { margin-bottom: 0; }
+
+.howto-block h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 0 0 8px;
+}
+
+.howto-block p {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+/* ============================================================
    Footer / states
    ============================================================ */
 .loading-line, .empty-line {
@@ -765,6 +946,10 @@ table.ledger td.num, table.ledger th.num { text-align: right; }
   .hero-stats { justify-content: center; flex-wrap: wrap; }
   .agenda-item { grid-template-columns: 1fr; }
   .agenda-item .when { border-right: none; border-bottom: 1px solid var(--rule); padding-bottom: 8px; }
+
+  .decklist-grid { grid-template-columns: 1fr; }
+  .decklist-col { border-right: none; border-bottom: 1px solid var(--rule-soft); }
+  .decklist-col:last-child { border-bottom: none; }
 }
 
 @media (min-width: 881px) {

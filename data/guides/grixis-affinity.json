@@ -1,0 +1,115 @@
+{
+  "deck": "Grixis Affinity",
+  "archetype": "Aggro-Combo",
+  "colors": ["U", "B", "R"],
+  "pilot": "Declan Fitzwilliam",
+  "intro": [
+    "Grixis Affinity plays a different game than the classic mono-blue version: instead of overwhelming with sheer artifact count alone, it splashes black removal to clear blockers and red burn to finish off whatever's left standing. The result is a deck that can beat both a slow control deck and a fast aggro mirror.",
+    "Your artifact lands and cheap permanents mean most of your hand can hit the table in the first two turns. From there, Bonesplitter and Galvanic Blast turn any leftover creature into real damage, and Disfigure and Sign in Blood smooth out the draws that don't come together on their own."
+  ],
+  "decklist": {
+    "mainboard": [
+      {
+        "type": "Creature",
+        "col": 1,
+        "cards": [
+          { "qty": 4, "name": "Frogmite" },
+          { "qty": 4, "name": "Myr Enforcer" },
+          { "qty": 4, "name": "Vault Skirge" },
+          { "qty": 2, "name": "Court Homunculus" }
+        ]
+      },
+      {
+        "type": "Artifact",
+        "col": 1,
+        "cards": [
+          { "qty": 4, "name": "Chromatic Star" },
+          { "qty": 3, "name": "Prophetic Prism" },
+          { "qty": 4, "name": "Bonesplitter" }
+        ]
+      },
+      {
+        "type": "Sorcery",
+        "col": 1,
+        "cards": [
+          { "qty": 4, "name": "Thoughtcast" },
+          { "qty": 3, "name": "Sign in Blood" }
+        ]
+      },
+      {
+        "type": "Instant",
+        "col": 2,
+        "cards": [
+          { "qty": 4, "name": "Galvanic Blast" },
+          { "qty": 3, "name": "Shrapnel Blast" },
+          { "qty": 4, "name": "Disfigure" }
+        ]
+      },
+      {
+        "type": "Land",
+        "col": 2,
+        "cards": [
+          { "qty": 3, "name": "Great Furnace" },
+          { "qty": 3, "name": "Seat of the Synod" },
+          { "qty": 3, "name": "Vault of Whispers" },
+          { "qty": 3, "name": "Island" },
+          { "qty": 3, "name": "Swamp" },
+          { "qty": 2, "name": "Mountain" }
+        ]
+      }
+    ],
+    "sideboard": [
+      { "qty": 3, "name": "Pyroblast" },
+      { "qty": 2, "name": "Gorilla Shaman" },
+      { "qty": 2, "name": "Nihil Spellbomb" },
+      { "qty": 2, "name": "Chittering Rats" },
+      { "qty": 3, "name": "Journey to Nowhere" },
+      { "qty": 2, "name": "Moment's Peace" },
+      { "qty": 1, "name": "Tormod's Crypt" }
+    ]
+  },
+  "howToPlay": [
+    {
+      "heading": "Mulligan guide",
+      "text": "Look for two or more artifact sources and at least one one-drop. Chromatic Star and Prophetic Prism both count as land-ish mana fixing in a pinch, so a hand with one of those and a real land is usually keepable."
+    },
+    {
+      "heading": "Early game",
+      "text": "Curve out on artifacts first — Frogmite and Myr Enforcer get cheaper for every artifact you already control, so sequence Chromatic Star and your artifact lands before your bigger threats whenever you have the choice."
+    },
+    {
+      "heading": "Mid game",
+      "text": "Bonesplitter turns any random 1/1 into a real clock, and it's rarely worth removal from the opponent. Use Disfigure proactively on their best blocker rather than reactively — you want to be attacking, not defending."
+    },
+    {
+      "heading": "Closing it out",
+      "text": "Count damage every turn from turn four onward. Galvanic Blast and Shrapnel Blast both scale with your board — once you're at metalcraft (three or more artifacts), either one can be a six-point swing that ends the game out of nowhere."
+    }
+  ],
+  "sideboardGuide": [
+    {
+      "matchup": "vs. Mono-Blue Terror",
+      "in": [{ "qty": 3, "name": "Pyroblast" }, { "qty": 2, "name": "Gorilla Shaman" }],
+      "out": [{ "qty": 3, "name": "Sign in Blood" }, { "qty": 2, "name": "Court Homunculus" }],
+      "notes": "Pyroblast blows out their bounce and counter plan for free. Race them — you have the faster clock if you don't get bogged down."
+    },
+    {
+      "matchup": "vs. Mono-Black Control",
+      "in": [{ "qty": 2, "name": "Nihil Spellbomb" }, { "qty": 2, "name": "Chittering Rats" }],
+      "out": [{ "qty": 2, "name": "Disfigure" }, { "qty": 2, "name": "Court Homunculus" }],
+      "notes": "They have more removal than you have creatures — flood the board and force bad trades instead of playing one threat at a time."
+    },
+    {
+      "matchup": "vs. Elves",
+      "in": [{ "qty": 3, "name": "Journey to Nowhere" }, { "qty": 1, "name": "Gorilla Shaman" }],
+      "out": [{ "qty": 3, "name": "Chromatic Star" }, { "qty": 1, "name": "Prophetic Prism" }],
+      "notes": "Cut some of your fixing for real interaction — you have plenty of colored sources by turn three and need answers to their mana dorks more."
+    },
+    {
+      "matchup": "vs. Mono-Red Madness",
+      "in": [{ "qty": 2, "name": "Moment's Peace" }],
+      "out": [{ "qty": 2, "name": "Thoughtcast" }],
+      "notes": "This is a race you can lose on the draw. Moment's Peace buys the turn you need to stabilize behind Bonesplitter damage."
+    }
+  ]
+}

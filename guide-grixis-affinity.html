@@ -1,17 +1,17 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Metagame — London Pauper League</title>
-<meta name="description" content="The most popular Pauper decks played at the London Pauper League this season.">
+<title>Grixis Affinity Deck Guide — London Pauper League</title>
+<meta name="description" content="How to play Grixis Affinity: decklist, game plan and sideboarding for the London Pauper League artifact aggro deck.">
 <link rel="icon" href="assets/crest.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-page="metagame">
+<body data-page="deck-guides">
 <div class="topbar">
   <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
   <div class="crest-medallion"><img src="assets/logo2.jpg" alt="" onerror="this.onerror=null;this.src='assets/crest.svg'"></div>
@@ -33,39 +33,55 @@
       <li><a class="nav-link" data-page="metagame" href="metagame.html"><span class="glyph">V</span>Metagame</a></li>
       <li><a class="nav-link" data-page="deck-guides" href="deck-guides.html"><span class="glyph">VI</span>Deck Guides</a></li>
     </ul>
-    <div class="sidebar-foot">Badger Badger Deptford &middot; Monday, 7pm</div>
+    <div class="sidebar-foot">The Coopered Barrel &middot; Tuesdays, 7pm</div>
   </aside>
 
-  <main class="main">
+  <main class="main" data-guide-src="data/guides/grixis-affinity.json">
+    <a class="guide-back" href="deck-guides.html">&larr; All Deck Guides</a>
     <div class="page-head">
       <div class="stamp"><img src="assets/logo2.jpg" alt="" onerror="this.onerror=null;this.src='assets/crest.svg'"></div>
       <div>
-        <h1>Metagame</h1>
-        <p class="lede">Stats breakdown for the current league.</p>
+        <h1>Grixis Affinity</h1>
+        <p class="lede">A cheap artifact army with a black-and-red splash for removal and reach.</p>
+        <div class="guide-meta" id="guide-meta"></div>
       </div>
     </div>
 
-    <div class="ledger-wrap">
-      <table class="ledger">
-        <caption>Deck spread breakdown, ranked by presence</caption>
-        <thead>
-          <tr>
-            <th>Deck</th>
-            <th>Archetype</th>
-            <th>Presence</th>
-            <th class="num">Winrate</th>
-            <th>Best Pilot</th>
-          </tr>
-        </thead>
-        <tbody id="metagame-body">
-          <tr><td colspan="5" class="loading-line">Tallying decklists…</td></tr>
-        </tbody>
-      </table>
-    </div>
+    <section class="guide-section guide-intro" id="guide-intro">
+      <p class="loading-line">Loading guide&hellip;</p>
+    </section>
+
+    <section class="guide-section">
+      <h2 class="section-title">The Deck</h2>
+      <div class="decklist-grid" id="decklist-grid"></div>
+    </section>
+
+    <section class="guide-section">
+      <h2 class="section-title">How to Play It</h2>
+      <div id="howto-list"></div>
+    </section>
+
+    <section class="guide-section">
+      <h2 class="section-title">Sideboarding</h2>
+      <div class="ledger-wrap">
+        <table class="ledger">
+          <caption>Matchup-by-matchup sideboard plan</caption>
+          <thead>
+            <tr>
+              <th>Matchup</th>
+              <th>Bring In</th>
+              <th>Take Out</th>
+              <th>Plan</th>
+            </tr>
+          </thead>
+          <tbody id="sideboard-body"></tbody>
+        </table>
+      </div>
+    </section>
   </main>
 </div>
 
 <script src="js/main.js"></script>
-<script src="js/metagame.js"></script>
+<script src="js/guide.js"></script>
 </body>
 </html>

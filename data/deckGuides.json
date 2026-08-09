@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "mono-blue-terror",
+    "deck": "Mono-Blue Terror",
+    "archetype": "Tempo",
+    "colors": ["U"],
+    "tagline": "Bounce their best card, swing with an unblockable, draw two off the ninja. Repeat until they concede.",
+    "page": "guide-mono-blue-terror.html"
+  },
+  {
+    "slug": "grixis-affinity",
+    "deck": "Grixis Affinity",
+    "archetype": "Aggro-Combo",
+    "colors": ["U", "B", "R"],
+    "tagline": "A cheap artifact army backed by black removal and a red burn plan for the last few points of damage.",
+    "page": "guide-grixis-affinity.html"
+  }
+]

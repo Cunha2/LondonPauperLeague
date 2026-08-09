@@ -1,0 +1,103 @@
+{
+  "deck": "Mono-Blue Terror",
+  "archetype": "Tempo",
+  "colors": ["U"],
+  "pilot": "Priya Shenoy",
+  "intro": [
+    "Mono-Blue Terror is the deck that wins by making sure your opponent never gets to play the game they wanted to. Every card either buys you a turn, draws you a card, or ends the game on its own — usually all three, if you sequence it right.",
+    "The gameplan is simple to say and hard to play well: land an evasive threat early, protect your tempo with bounce, and let Ninja of the Deep Hours turn every unblocked hit into a fistful of cards. By the time your opponent has stabilized, you've already seen half your deck and they haven't cast their fourth spell."
+  ],
+  "decklist": {
+    "mainboard": [
+      {
+        "type": "Creature",
+        "col": 1,
+        "cards": [
+          { "qty": 4, "name": "Faerie Seer" },
+          { "qty": 4, "name": "Slither Blade" },
+          { "qty": 4, "name": "Ninja of the Deep Hours" },
+          { "qty": 4, "name": "Man-o'-War" },
+          { "qty": 4, "name": "Mulldrifter" },
+          { "qty": 3, "name": "Cloud of Faeries" }
+        ]
+      },
+      {
+        "type": "Sorcery",
+        "col": 1,
+        "cards": [
+          { "qty": 4, "name": "Preordain" },
+          { "qty": 4, "name": "Deep Analysis" }
+        ]
+      },
+      {
+        "type": "Instant",
+        "col": 2,
+        "cards": [
+          { "qty": 4, "name": "Vapor Snag" },
+          { "qty": 4, "name": "Frost Breath" },
+          { "qty": 4, "name": "Exclude" }
+        ]
+      },
+      {
+        "type": "Land",
+        "col": 2,
+        "cards": [
+          { "qty": 17, "name": "Island" }
+        ]
+      }
+    ],
+    "sideboard": [
+      { "qty": 3, "name": "Hydroblast" },
+      { "qty": 2, "name": "Dispel" },
+      { "qty": 2, "name": "Condescend" },
+      { "qty": 3, "name": "Annul" },
+      { "qty": 2, "name": "Echoing Truth" },
+      { "qty": 2, "name": "Fog" },
+      { "qty": 1, "name": "Relic of Progenitus" }
+    ]
+  },
+  "howToPlay": [
+    {
+      "heading": "Mulligan guide",
+      "text": "Keep any hand with two lands, an evasive one-or-two-drop, and either a bounce spell or a cantrip. Slither Blade into Ninja of the Deep Hours is the dream opening — don't be afraid to mulligan a hand that can't produce it by turn three."
+    },
+    {
+      "heading": "Early game",
+      "text": "Deploy your unblockable threats on curve and hold Vapor Snag for anything that would trade with or block them. You are almost never the beatdown before turn four — your job in the early turns is to make sure your one relevant creature keeps connecting."
+    },
+    {
+      "heading": "Mid game",
+      "text": "Once Ninja of the Deep Hours is online, every attack should be asking 'what does two extra cards let me do next turn.' Use Exclude to strip your opponent's best answer and Mulldrifter to refill after a trade. Deep Analysis with flashback means a slow hand is rarely a dead hand."
+    },
+    {
+      "heading": "Closing it out",
+      "text": "You rarely need more than two or three unblocked attacks to draw enough cards to bury the opponent in card advantage. Once you're ahead on cards, start trading resources freely — you can afford to lose the race on board state as long as you're winning it on information."
+    }
+  ],
+  "sideboardGuide": [
+    {
+      "matchup": "vs. Mono-Red Madness",
+      "in": [{ "qty": 3, "name": "Hydroblast" }, { "qty": 2, "name": "Fog" }],
+      "out": [{ "qty": 3, "name": "Deep Analysis" }, { "qty": 2, "name": "Cloud of Faeries" }],
+      "notes": "You're on the draw against a deck that wants to race — buy time and let your card advantage take over from turn six onward."
+    },
+    {
+      "matchup": "vs. Mono-Black Control",
+      "in": [{ "qty": 2, "name": "Dispel" }, { "qty": 2, "name": "Condescend" }],
+      "out": [{ "qty": 2, "name": "Frost Breath" }, { "qty": 2, "name": "Cloud of Faeries" }],
+      "notes": "Protect your evasive threats from removal and hold counter mana up once you're ahead — they need to catch back up in cards, you don't."
+    },
+    {
+      "matchup": "vs. Grixis Affinity",
+      "in": [{ "qty": 3, "name": "Annul" }, { "qty": 1, "name": "Echoing Truth" }],
+      "out": [{ "qty": 3, "name": "Deep Analysis" }, { "qty": 1, "name": "Preordain" }],
+      "notes": "Annul answers everything they're doing for one mana. Prioritize their equipment and key artifact lands over their creatures."
+    },
+    {
+      "matchup": "vs. Elves",
+      "in": [{ "qty": 2, "name": "Fog" }, { "qty": 2, "name": "Echoing Truth" }],
+      "out": [{ "qty": 2, "name": "Man-o'-War" }, { "qty": 2, "name": "Preordain" }],
+      "notes": "Echoing Truth is a two-for-one against their mana dorks. Don't try to race — Fog buys the turn you need to stabilize."
+    }
+  ]
+}
