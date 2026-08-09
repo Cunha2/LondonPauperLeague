@@ -4,8 +4,8 @@
   "colors": ["U"],
   "pilot": "Priya Shenoy",
   "intro": [
-    "Mono-Blue Terror is the deck that wins by making sure your opponent never gets to play the game they wanted to. Every card either buys you a turn, draws you a card, or ends the game on its own — usually all three, if you sequence it right.",
-    "The gameplan is simple to say and hard to play well: land an evasive threat early, protect your tempo with bounce, and let Ninja of the Deep Hours turn every unblocked hit into a fistful of cards. By the time your opponent has stabilized, you've already seen half your deck and they haven't cast their fourth spell."
+    "Priya's been running some version of this deck since she joined, and the plan hasn't really changed: bounce whatever's in the way, get something unblockable through, and let Ninja of the Deep Hours do the rest. It's not a flashy deck. It just doesn't let the other player settle into whatever they were trying to do.",
+    "Get an evasive creature down early and protect it with bounce when you need to. Once the ninja's connecting, you're drawing extra cards most turns, and most games you're not doing anything spectacular — you're just quietly ahead by the time anyone notices."
   ],
   "decklist": {
     "mainboard": [
@@ -63,7 +63,7 @@
     },
     {
       "heading": "Early game",
-      "text": "Deploy your unblockable threats on curve and hold Vapor Snag for anything that would trade with or block them. You are almost never the beatdown before turn four — your job in the early turns is to make sure your one relevant creature keeps connecting."
+      "text": "Deploy your unblockable threats on curve and hold Vapor Snag for anything that would trade with or block them. You're almost never the beatdown before turn four, so early on your only real job is keeping that one relevant creature connecting."
     },
     {
       "heading": "Mid game",
@@ -71,7 +71,7 @@
     },
     {
       "heading": "Closing it out",
-      "text": "You rarely need more than two or three unblocked attacks to draw enough cards to bury the opponent in card advantage. Once you're ahead on cards, start trading resources freely — you can afford to lose the race on board state as long as you're winning it on information."
+      "text": "You rarely need more than two or three unblocked attacks to draw enough cards to bury the opponent. Once you're ahead, start trading resources freely — falling behind on board is fine as long as you're still ahead on cards."
     }
   ],
   "sideboardGuide": [
@@ -85,7 +85,7 @@
       "matchup": "vs. Mono-Black Control",
       "in": [{ "qty": 2, "name": "Dispel" }, { "qty": 2, "name": "Condescend" }],
       "out": [{ "qty": 2, "name": "Frost Breath" }, { "qty": 2, "name": "Cloud of Faeries" }],
-      "notes": "Protect your evasive threats from removal and hold counter mana up once you're ahead — they need to catch back up in cards, you don't."
+      "notes": "Protect your evasive threats and hold up counter mana once you're ahead. They're the ones who need to catch up on cards, not you."
     },
     {
       "matchup": "vs. Grixis Affinity",

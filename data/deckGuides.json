@@ -4,7 +4,7 @@
     "deck": "Mono-Blue Terror",
     "archetype": "Tempo",
     "colors": ["U"],
-    "tagline": "Bounce their best card, swing with an unblockable, draw two off the ninja. Repeat until they concede.",
+    "tagline": "Bounce whatever they just played, hit them with something small and unblockable, start drawing extra cards off the ninja.",
     "page": "guide-mono-blue-terror.html"
   },
   {
@@ -12,7 +12,7 @@
     "deck": "Grixis Affinity",
     "archetype": "Aggro-Combo",
     "colors": ["U", "B", "R"],
-    "tagline": "A cheap artifact army backed by black removal and a red burn plan for the last few points of damage.",
+    "tagline": "Cheap artifacts backed by black removal, with red burn sitting around for whatever's left standing.",
     "page": "guide-grixis-affinity.html"
   },
   {
@@ -20,7 +20,7 @@
     "deck": "Elves",
     "archetype": "Midrange-Aggro",
     "colors": ["G"],
-    "tagline": "Chain mana dorks into a wide board of little green creatures, then swing for more than anyone expects.",
+    "tagline": "Turn one mana dork into a board nobody saw coming.",
     "page": "guide-elves.html"
   }
 ]

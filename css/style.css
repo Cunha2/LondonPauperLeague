@@ -207,6 +207,11 @@ body[data-page="deck-guides"] .nav-link[data-page="deck-guides"] {
   gap: 18px;
 }
 
+.page-head > div:last-child {
+  flex: 1;
+  min-width: 0;
+}
+
 .page-head .stamp {
   width: 40px;
   height: 40px;
@@ -240,7 +245,6 @@ body[data-page="deck-guides"] .nav-link[data-page="deck-guides"] {
   font-family: var(--font-body);
   font-style: italic;
   color: var(--ink-soft);
-  max-width: 56ch;
   margin: 0;
 }
 

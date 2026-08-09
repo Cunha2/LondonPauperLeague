@@ -4,8 +4,8 @@
   "colors": ["U", "B", "R"],
   "pilot": "Declan Fitzwilliam",
   "intro": [
-    "Grixis Affinity plays a different game than the classic mono-blue version: instead of overwhelming with sheer artifact count alone, it splashes black removal to clear blockers and red burn to finish off whatever's left standing. The result is a deck that can beat both a slow control deck and a fast aggro mirror.",
-    "Your artifact lands and cheap permanents mean most of your hand can hit the table in the first two turns. From there, Bonesplitter and Galvanic Blast turn any leftover creature into real damage, and Disfigure and Sign in Blood smooth out the draws that don't come together on their own."
+    "This isn't the classic mono-blue Affinity list — Declan's been splashing black and red into it for as long as anyone can remember. It costs a bit of consistency, but you get real removal for their blockers and a burn plan for whatever's still standing when the artifacts run out of gas.",
+    "Most of your hand hits the table by turn two thanks to the artifact lands and the cheap permanents. After that Bonesplitter and Galvanic Blast do a lot of the actual damage, and Disfigure or Sign in Blood usually bail you out on the turns where nothing comes together."
   ],
   "decklist": {
     "mainboard": [
@@ -79,7 +79,7 @@
     },
     {
       "heading": "Mid game",
-      "text": "Bonesplitter turns any random 1/1 into a real clock, and it's rarely worth removal from the opponent. Use Disfigure proactively on their best blocker rather than reactively — you want to be attacking, not defending."
+      "text": "Bonesplitter turns any random 1/1 into a real clock, and it's rarely worth a removal spell from the opponent. Don't just save Disfigure for their best creature — sometimes the better play is clearing a blocker so you can keep attacking."
     },
     {
       "heading": "Closing it out",
@@ -97,7 +97,7 @@
       "matchup": "vs. Mono-Black Control",
       "in": [{ "qty": 2, "name": "Nihil Spellbomb" }, { "qty": 2, "name": "Chittering Rats" }],
       "out": [{ "qty": 2, "name": "Disfigure" }, { "qty": 2, "name": "Court Homunculus" }],
-      "notes": "They have more removal than you have creatures — flood the board and force bad trades instead of playing one threat at a time."
+      "notes": "They'll out-removal you if you play one threat at a time, so flood the board instead and make them choose what to kill."
     },
     {
       "matchup": "vs. Elves",
