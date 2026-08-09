@@ -1,0 +1,14 @@
+[
+  { "name": "Mara Fenwick", "legsPlayed": 42, "points": 97, "winrate": 71.4 },
+  { "name": "Oyelaran Dosunmu", "legsPlayed": 39, "points": 88, "winrate": 69.2 },
+  { "name": "Callum Brasher", "legsPlayed": 45, "points": 85, "winrate": 62.2 },
+  { "name": "Priya Shenoy", "legsPlayed": 36, "points": 79, "winrate": 66.7 },
+  { "name": "Declan Fitzwilliam", "legsPlayed": 41, "points": 74, "winrate": 58.5 },
+  { "name": "Tomasz Wieczorek", "legsPlayed": 33, "points": 70, "winrate": 63.6 },
+  { "name": "Aoife Lundqvist", "legsPlayed": 38, "points": 65, "winrate": 55.3 },
+  { "name": "Yusuf Adeyemi", "legsPlayed": 30, "points": 61, "winrate": 60.0 },
+  { "name": "Bethan Okafor-Grey", "legsPlayed": 35, "points": 57, "winrate": 51.4 },
+  { "name": "Rhys Callaghan", "legsPlayed": 27, "points": 49, "winrate": 51.9 },
+  { "name": "Ingrid Solberg", "legsPlayed": 29, "points": 44, "winrate": 44.8 },
+  { "name": "Marcus Tibbett", "legsPlayed": 24, "points": 38, "winrate": 45.8 }
+]

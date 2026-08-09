@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Standings — London Pauper League</title>
+<meta name="description" content="Season ladder for the London Pauper League — legs played, points and winrate.">
+<link rel="icon" href="assets/crest.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="standings">
+<div class="topbar">
+  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+  <div class="crest-medallion"><img src="assets/logo.png" alt="" onerror="this.onerror=null;this.src='assets/crest.svg'"></div>
+  <span class="wordmark">London Pauper League</span>
+</div>
+<div class="scrim"></div>
+
+<div class="shell">
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <div class="crest-medallion"><img src="assets/logo.png" alt="London Pauper League crest" onerror="this.onerror=null;this.src='assets/crest.svg'"></div>
+      <div class="wordmark">London Pauper League<small>Est. 2019 &middot; Commons Only</small></div>
+    </div>
+    <ul class="nav">
+      <li><a class="nav-link" data-page="home" href="index.html"><span class="glyph">I</span>Home</a></li>
+      <li><a class="nav-link" data-page="schedule" href="schedule.html"><span class="glyph">II</span>Schedule</a></li>
+      <li><a class="nav-link" data-page="standings" href="standings.html"><span class="glyph">III</span>Standings</a></li>
+      <li><a class="nav-link" data-page="hall-of-fame" href="hall-of-fame.html"><span class="glyph">IV</span>Hall of Fame</a></li>
+      <li><a class="nav-link" data-page="metagame" href="metagame.html"><span class="glyph">V</span>Metagame</a></li>
+    </ul>
+    <div class="sidebar-foot">The Coopered Barrel &middot; Tuesdays, 7pm</div>
+  </aside>
+
+  <main class="main">
+    <div class="page-head">
+      <div class="stamp"><img src="assets/logo.png" alt="" onerror="this.onerror=null;this.src='assets/crest.svg'"></div>
+      <div>
+        <p class="eyebrow">Chapter III</p>
+        <h1>Standings</h1>
+        <p class="lede">The season ladder, tallied after every league night. Points first, bragging rights second.</p>
+      </div>
+    </div>
+
+    <div class="ledger-wrap">
+      <table class="ledger">
+        <caption>Season standings, ranked by points</caption>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th class="num">Legs Played</th>
+            <th class="num">Points</th>
+            <th class="num">Winrate</th>
+          </tr>
+        </thead>
+        <tbody id="standings-body">
+          <tr><td colspan="5" class="loading-line">Reading the ledger…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/standings.js"></script>
+</body>
+</html>

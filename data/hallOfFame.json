@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Mara Fenwick",
+    "mainDeck": "Boros Bully",
+    "joined": "2021-03-14",
+    "accent": "ember",
+    "blurb": "Three championships and still tables an axe on turn two. Nobody blocks Kor Skyfisher against Mara twice."
+  },
+  {
+    "name": "Oyelaran Dosunmu",
+    "mainDeck": "Mono-Black Control",
+    "joined": "2020-09-02",
+    "accent": "moss",
+    "blurb": "Founding member. Wrote the club's first sideboard guide on the back of a beer mat, which is still taped behind the bar."
+  },
+  {
+    "name": "Priya Shenoy",
+    "mainDeck": "Tron",
+    "joined": "2022-06-21",
+    "accent": "brass",
+    "blurb": "The only pilot in the club who can explain the Tron mirror without losing the room. Undefeated on League Tuesdays this year."
+  },
+  {
+    "name": "Declan Fitzwilliam",
+    "mainDeck": "Affinity",
+    "joined": "2019-11-08",
+    "accent": "oxblood",
+    "blurb": "Older than the club's second venue. Still sleeves his artifacts in the same battered sleeves from 2019."
+  },
+  {
+    "name": "Tomasz Wieczorek",
+    "mainDeck": "Elves",
+    "joined": "2023-02-27",
+    "accent": "moss",
+    "blurb": "Came for one demo night, stayed forever. Holds the club record for most creatures cast in a single turn: fourteen."
+  },
+  {
+    "name": "Aoife Lundqvist",
+    "mainDeck": "Dimir Terror",
+    "joined": "2021-08-19",
+    "accent": "ink",
+    "blurb": "Quiet at the table, loud on the scoreboard. Three-time Autumn Championship finalist."
+  }
+]
