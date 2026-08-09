@@ -99,10 +99,10 @@ body::before {
 }
 
 .crest-medallion img {
-  width: 76%;
-  height: 76%;
-  object-fit: contain;
-  mix-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .wordmark {
@@ -216,15 +216,15 @@ body[data-page="metagame"] .nav-link[data-page="metagame"] {
   place-items: center;
   flex-shrink: 0;
   margin-top: 6px;
+  overflow: hidden;
   box-shadow: 0 2px 0 rgba(32, 26, 20, 0.25);
 }
 
 .page-head .stamp img {
-  width: 62%;
-  height: 62%;
-  object-fit: contain;
-  filter: brightness(0) invert(1);
-  opacity: 0.92;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .page-head h1 {
@@ -576,14 +576,14 @@ table.ledger td.num, table.ledger th.num { text-align: right; }
   display: grid;
   place-items: center;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .hero-seal img {
-  width: 62%;
-  height: 62%;
-  object-fit: contain;
-  filter: brightness(0) invert(1);
-  opacity: 0.94;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .hero-copy .eyebrow { margin-bottom: 10px; }

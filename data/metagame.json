@@ -1,12 +1,12 @@
 [
-  { "deck": "Boros Bully", "archetype": "Aggro", "presence": 18.4, "winrate": 57.2, "bestPilot": "Mara Fenwick" },
-  { "deck": "Tron", "archetype": "Ramp", "presence": 15.1, "winrate": 55.8, "bestPilot": "Priya Shenoy" },
-  { "deck": "Affinity", "archetype": "Aggro-Combo", "presence": 13.7, "winrate": 52.4, "bestPilot": "Declan Fitzwilliam" },
+  { "deck": "Mono-Red Madness", "archetype": "Aggro", "presence": 18.4, "winrate": 57.2, "bestPilot": "Mara Fenwick" },
+  { "deck": "Mono-Blue Terror", "archetype": "Tempo", "presence": 15.1, "winrate": 55.8, "bestPilot": "Priya Shenoy" },
+  { "deck": "Affinity", "archetype": "Aggro-Midrange", "presence": 13.7, "winrate": 52.4, "bestPilot": "Declan Fitzwilliam" },
   { "deck": "Mono-Black Control", "archetype": "Control", "presence": 11.9, "winrate": 54.1, "bestPilot": "Oyelaran Dosunmu" },
-  { "deck": "Dimir Terror", "archetype": "Tempo", "presence": 9.6, "winrate": 53.0, "bestPilot": "Aoife Lundqvist" },
-  { "deck": "Elves", "archetype": "Combo-Midrange", "presence": 8.3, "winrate": 49.6, "bestPilot": "Tomasz Wieczorek" },
-  { "deck": "Gruul Ponza", "archetype": "Midrange", "presence": 7.2, "winrate": 48.3, "bestPilot": "Callum Brasher" },
-  { "deck": "Faeries", "archetype": "Tempo-Control", "presence": 6.5, "winrate": 50.9, "bestPilot": "Bethan Okafor-Grey" },
-  { "deck": "Jeskai Blitz", "archetype": "Aggro-Combo", "presence": 5.4, "winrate": 47.1, "bestPilot": "Rhys Callaghan" },
-  { "deck": "Sacrifice Cauldron", "archetype": "Midrange-Combo", "presence": 3.9, "winrate": 44.5, "bestPilot": "Yusuf Adeyemi" }
+  { "deck": "Dimir Terror", "archetype": "Midrange", "presence": 9.6, "winrate": 53.0, "bestPilot": "Aoife Lundqvist" },
+  { "deck": "Elves", "archetype": "Midrange-Aggro", "presence": 8.3, "winrate": 49.6, "bestPilot": "Tomasz Wieczorek" },
+  { "deck": "Gruul Ponza", "archetype": "Tempo", "presence": 7.2, "winrate": 48.3, "bestPilot": "Callum Brasher" },
+  { "deck": "Mono-Blue Faeries", "archetype": "Tempo", "presence": 6.5, "winrate": 50.9, "bestPilot": "Bethan Okafor-Grey" },
+  { "deck": "Jeskai Ephemerate", "archetype": "Control", "presence": 5.4, "winrate": 47.1, "bestPilot": "Rhys Callaghan" },
+  { "deck": "Cat Food Pestilence", "archetype": "Control", "presence": 3.9, "winrate": 44.5, "bestPilot": "Yusuf Adeyemi" }
 ]

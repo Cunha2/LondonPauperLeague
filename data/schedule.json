@@ -1,83 +1,92 @@
 [
   {
-    "id": "evt-2026-08-13",
-    "title": "Tuesday League Night",
-    "date": "2026-08-13",
+    "id": "evt-2026-07-13",
+    "title": "Monday League - Leg 1",
+    "date": "2026-07-13",
     "time": "19:00",
     "format": "Weekly League · Swiss, 3 rounds",
-    "location": "The Coopered Barrel, Back Room",
-    "description": "Standard weekly league night. Turn up, get paired, first round starts sharp at 7."
+    "location": "Badger Badger, Deptford",
+    "description": "Standard weekly league night. Prize packs for 2-1 and better."
   },
   {
-    "id": "evt-2026-08-20",
-    "title": "Tuesday League Night",
-    "date": "2026-08-20",
+    "id": "evt-2026-07-20",
+    "title": "Monday League - Leg 2",
+    "date": "2026-07-20",
     "time": "19:00",
     "format": "Weekly League · Swiss, 3 rounds",
-    "location": "The Coopered Barrel, Back Room",
-    "description": "Standard weekly league night. Turn up, get paired, first round starts sharp at 7."
+    "location": "Badger Badger, Deptford",
+    "description": "Standard weekly league night. Prize packs for 2-1 and better."
   },
   {
-    "id": "evt-2026-08-23",
-    "title": "August Pauper Challenge",
-    "date": "2026-08-23",
-    "time": "12:30",
-    "format": "Monthly Major · Swiss + Top 8",
-    "location": "The Coopered Barrel, Main Hall",
-    "description": "Our biggest event of the month. Bring a decklist, bring a sleeve of proxied basics, and bring your best commons."
-  },
-  {
-    "id": "evt-2026-08-27",
-    "title": "Tuesday League Night",
-    "date": "2026-08-27",
+    "id": "evt-2026-07-27",
+    "title": "Monday League - Leg 3",
+    "date": "2026-07-27",
     "time": "19:00",
     "format": "Weekly League · Swiss, 3 rounds",
-    "location": "The Coopered Barrel, Back Room",
-    "description": "Standard weekly league night. Turn up, get paired, first round starts sharp at 7."
+    "location": "Badger Badger, Deptford",
+    "description": "Standard weekly league night. Prize packs for 2-1 and better."
   },
   {
-    "id": "evt-2026-09-03",
-    "title": "New Pauper Night",
-    "date": "2026-09-03",
-    "time": "18:30",
-    "format": "Casual · Deck doctor & loaner decks",
-    "location": "The Coopered Barrel, Back Room",
-    "description": "Never played Pauper before? Come early. We'll lend you a deck, walk you through the format, and pair you up gently."
-  },
-  {
-    "id": "evt-2026-09-10",
-    "title": "Tuesday League Night",
-    "date": "2026-09-10",
+    "id": "evt-2026-08-03",
+    "title": "Monday League - Leg 4",
+    "date": "2026-08-03",
     "time": "19:00",
     "format": "Weekly League · Swiss, 3 rounds",
-    "location": "The Coopered Barrel, Back Room",
-    "description": "Standard weekly league night. Turn up, get paired, first round starts sharp at 7."
+    "location": "Badger Badger, Deptford",
+    "description": "Standard weekly league night. Prize packs for 2-1 and better."
   },
   {
-    "id": "evt-2026-09-17",
-    "title": "Tuesday League Night",
-    "date": "2026-09-17",
+    "id": "evt-2026-08-10",
+    "title": "Monday League - Leg 5",
+    "date": "2026-08-10",
     "time": "19:00",
     "format": "Weekly League · Swiss, 3 rounds",
-    "location": "The Coopered Barrel, Back Room",
-    "description": "Standard weekly league night. Turn up, get paired, first round starts sharp at 7."
+    "location": "Badger Badger, Deptford",
+    "description": "Standard weekly league night. Prize packs for 2-1 and better."
   },
   {
-    "id": "evt-2026-09-27",
-    "title": "September Pauper Challenge",
-    "date": "2026-09-27",
-    "time": "12:30",
-    "format": "Monthly Major · Swiss + Top 8",
-    "location": "The Coopered Barrel, Main Hall",
-    "description": "Our biggest event of the month. Bring a decklist, bring a sleeve of proxied basics, and bring your best commons."
+    "id": "evt-2026-08-17",
+    "title": "Monday League - Leg 6",
+    "date": "2026-08-17",
+    "time": "19:00",
+    "format": "Weekly League · Swiss, 3 rounds",
+    "location": "Badger Badger, Deptford",
+    "description": "Standard weekly league night. Prize packs for 2-1 and better."
   },
   {
-    "id": "evt-2026-10-17",
-    "title": "Autumn Championship",
-    "date": "2026-10-17",
-    "time": "11:00",
-    "format": "Seasonal Championship · Swiss + Top 8, trophy on the line",
-    "location": "The Coopered Barrel, Main Hall",
-    "description": "The season's standings close the week before. Top 16 on the ladder get a seat; everyone else can rail and heckle."
+    "id": "evt-2026-08-24",
+    "title": "Monday League - Leg 7",
+    "date": "2026-08-24",
+    "time": "19:00",
+    "format": "Weekly League · Swiss, 3 rounds",
+    "location": "Badger Badger, Deptford",
+    "description": "Standard weekly league night. Prize packs for 2-1 and better."
+  },
+  {
+    "id": "evt-2026-08-31",
+    "title": "Monday League - Leg 8",
+    "date": "2026-08-31",
+    "time": "19:00",
+    "format": "Weekly League · Swiss, 3 rounds",
+    "location": "Badger Badger, Deptford",
+    "description": "Standard weekly league night. Prize packs for 2-1 and better."
+  },
+  {
+    "id": "evt-2026-09-07",
+    "title": "Monday League - Leg 9",
+    "date": "2026-09-07",
+    "time": "19:00",
+    "format": "Weekly League · Swiss, 3 rounds",
+    "location": "Badger Badger, Deptford",
+    "description": "Standard weekly league night. Prize packs for 2-1 and better."
+  },
+  {
+    "id": "evt-2026-09-14",
+    "title": "Monday League - Leg 10",
+    "date": "2026-09-14",
+    "time": "19:00",
+    "format": "Weekly League · Swiss, 3 rounds",
+    "location": "Badger Badger, Deptford",
+    "description": "Standard weekly league night. Prize packs for 2-1 and better."
   }
 ]
